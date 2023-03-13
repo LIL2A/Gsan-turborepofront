@@ -1,8 +1,16 @@
 
-.images-consenso-container{
- 
+
+.img-pai{
+    
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    letter-spacing: 13px;
+    align-items: center;
+    width: 400px;
+}
+
+#consenso-logo{
+    width: 400px;
+}
+#tecnologia-text{
+    letter-spacing: 10px;
 }

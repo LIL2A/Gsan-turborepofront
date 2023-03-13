@@ -18,6 +18,23 @@ type Inputs = {
 
 const LoginFormYup = () => {
 
+
+    /*   
+    import axios from 'axios'
+    
+    const addPost = data => axios.post("meuApiEndpoint", data)
+    .then(() => {
+        console.log("Deu tudo certo")
+        history.push("/")
+    })
+    .catch(() => {
+        console.log("DEU ERRADO")
+    })
+    
+    
+    */
+
+
     const validarPost = yup.object({
         email: yup.string().email('por favor, insira um formato de email válido').required('esse campo é obrigatório'),
         senha: yup.string().min(6, 'No minimo 6 caracteres').required('esse campo é obrigatório')

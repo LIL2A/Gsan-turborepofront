@@ -7,11 +7,14 @@ export const LogoInicial = () => {
             <span className="text-white text-lg ml-3"> GSAN 4.0 </span> 
         </a>
         <div className="my-auto images-consenso-container">
-            <img src="/imagens/Consenso_Marca_4.png" className="-intro-x w-1/2 -mt-16" width="95" height="95"/>
-          
-            <div id="tecnologia-text" className="-intro-x text-white font-medium text-4xl leading-tight mt-10">
-                Tecnologia     
-            </div>                      
+            <div className='img-pai'>
+                <img src="/imagens/Consenso_Marca_4.png" className="-intro-x w-1/2 -mt-16" id='consenso-logo' width="95" height="95"/>
+                
+                <div id="tecnologia-text" className="-intro-x text-white font-medium text-4xl leading-tight mt-10">
+                    Tecnologia     
+                </div>   
+            </div>
+                               
         </div>
     </div>
     )
