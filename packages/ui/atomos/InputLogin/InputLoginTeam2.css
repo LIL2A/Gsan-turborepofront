@@ -1,0 +1,18 @@
+.login .login__input {
+        min-width: 320px;
+        min-height: 42px;
+    }
+@media (max-width: calc(1280px - 1px)) {
+    .login .login__input{
+        min-width: 100%;
+        min-height: 100%;
+    }
+  }
+
+.login .status-default{
+    border-color: darkgrey;
+}
+
+.login .status-error{
+    border-color: red;
+}
