@@ -50,7 +50,7 @@ const LoginFormYup = () => {
 
                     <div className="intro-x flex text-slate-600 dark:text-slate-500 text-xs sm:text-sm mt-4">
                         <div className="flex items-center mr-auto">
-                            <InputCheckbox text='Lembrar me' />
+                            <InputCheckbox text='Lembrar-me' />
                         </div>
 
                     </div>

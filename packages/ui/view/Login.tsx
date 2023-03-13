@@ -3,7 +3,7 @@ import { LogoInicial } from "ui"
 import LoginForm from 'ui/organismos/LoginForm'
 import LoginFormYup from '../organismos/LoginFormYup'
 //teste
-const index = () => {
+const Login = () => {
   return (
     <div className="login">
         <div className="container sm:px-10">
@@ -16,4 +16,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Login
