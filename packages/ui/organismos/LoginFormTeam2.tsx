@@ -26,7 +26,7 @@ const LoginForm = () => {
           </div>
           <div className="intro-x mt-5 xl:mt-8 text-center xl:text-left">
             <Link href="/Dashboard">
-              <BotaoAzulTeamB texto="Login" />
+              <BotaoAzulTeamB texto="Entrar" />
             </Link>
             <BotaoBranco texto="Registrar-se" />
           </div>
