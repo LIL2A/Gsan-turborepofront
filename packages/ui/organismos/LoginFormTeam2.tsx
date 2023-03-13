@@ -1,9 +1,9 @@
 import Link from "next/link";
 import {
-  BotaoAzul,
   BotaoBranco,
   InputCheckbox,
 } from "ui";
+import { BotaoAzulTeamB } from "../atomos/Botoes/BotaoTeamB/BotaoTeamB";
 
 import { InputLoginTeam2 } from "../atomos/InputLogin/InputLoginTeam2";
 
@@ -26,7 +26,7 @@ const LoginForm = () => {
           </div>
           <div className="intro-x mt-5 xl:mt-8 text-center xl:text-left">
             <Link href="/Dashboard">
-              <BotaoAzul texto="Login" />
+              <BotaoAzulTeamB texto="Entrar" />
             </Link>
             <BotaoBranco texto="Registrar-se" />
           </div>
