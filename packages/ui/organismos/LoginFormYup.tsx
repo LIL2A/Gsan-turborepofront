@@ -42,11 +42,11 @@ const LoginFormYup = () => {
                     <input type="email"
                         className="intro-x login__input form-control py-3 px-4 block mt-4"
                         placeholder="Email"  {...register("email")} />
-                    <p>{errors.email?.message}</p>
+                    <p className="text-danger mt-2">{errors.email?.message}</p>
                     <input type="password"
                         className="intro-x login__input form-control py-3 px-4 block mt-4"
                         placeholder="Senha"  {...register("senha")} />
-                    <p>{errors.senha?.message}</p>
+                    <p className="text-danger mt-2">{errors.senha?.message}</p>
 
                     <div className="intro-x flex text-slate-600 dark:text-slate-500 text-xs sm:text-sm mt-4">
                         <div className="flex items-center mr-auto">
