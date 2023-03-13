@@ -3,7 +3,8 @@ import {
   BotaoAzul,
   BotaoBranco,
   InputCheckbox,
-  InputLoginTeam2,
+  InputEmail,
+  InputSenha,
 } from "ui";
 
 const LoginForm = () => {
@@ -14,8 +15,8 @@ const LoginForm = () => {
           Login
         </h2>
         <div className="intro-x mt-8">
-          <InputLoginTeam2 type="text" placeholder="Insira seu usuário" />
-          <InputLoginTeam2 type="password" placeholder="Insira sua senha"
+          <InputEmail />
+          <InputSenha />
 
           <div className="intro-x flex text-slate-600 dark:text-slate-500 text-xs sm:text-sm mt-4">
             <div className="flex items-center mr-auto">

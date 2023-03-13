@@ -7,3 +7,4 @@ export * from "./atomos/MenuNavegacao/MenuNavegacao";
 export * from "./atomos/BarraBusca/BarraBusca";
 export * from "./atomos/Notificacoes/Notificacoes"
 export * from "./atomos/InputLogin/InputLoginTeam2"
+export * from "./organismos/LoginFormTeam2"
