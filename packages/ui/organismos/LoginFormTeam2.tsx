@@ -1,10 +1,10 @@
 import Link from "next/link";
 import {
-  BotaoAzul,
   BotaoBranco,
   InputCheckbox,
   InputLoginTeam2
 } from "ui";
+import { BotaoAzulTeamB } from "../atomos/Botoes/BotaoTeamB/BotaoTeamB";
 
 const LoginForm = () => {
   return (
@@ -25,7 +25,7 @@ const LoginForm = () => {
           </div>
           <div className="intro-x mt-5 xl:mt-8 text-center xl:text-left">
             <Link href="/Dashboard">
-              <BotaoAzul texto="Login" />
+              <BotaoAzulTeamB texto="Login" />
             </Link>
             <BotaoBranco texto="Registrar-se" />
           </div>
