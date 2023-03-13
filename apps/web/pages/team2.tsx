@@ -1,18 +1,9 @@
-import React from 'react'
-import { LogoInicial } from "ui"
-import LoginFormTeam2 from 'ui/organismos/LoginFormTeam2'
+import Team2View from "ui/view/Team2View"
 
-const index = () => {
-  return (
-    <div className="login">
-        <div className="container sm:px-10">
-            <div className="block xl:grid grid-cols-2 gap-4">
-                <LogoInicial/>
-                <LoginFormTeam2/>
-            </div>
-        </div>
-    </div>
+const team2 = () =>{
+  return(
+    <Team2View/>
   )
 }
 
-export default index
+export default team2 

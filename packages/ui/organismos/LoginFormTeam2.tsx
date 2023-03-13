@@ -2,9 +2,10 @@ import Link from "next/link";
 import {
   BotaoBranco,
   InputCheckbox,
-  InputLoginTeam2
 } from "ui";
 import { BotaoAzulTeamB } from "../atomos/Botoes/BotaoTeamB/BotaoTeamB";
+
+import { InputLoginTeam2 } from "../atomos/InputLogin/InputLoginTeam2";
 
 const LoginForm = () => {
   return (
