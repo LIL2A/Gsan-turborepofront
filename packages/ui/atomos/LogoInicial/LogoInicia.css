@@ -1,0 +1,8 @@
+
+.images-consenso-container{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    letter-spacing: 13px;
+}

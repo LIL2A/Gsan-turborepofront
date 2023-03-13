@@ -39,7 +39,7 @@ const LoginFormYup = () => {
                     Login
                 </h2>
                 <div className="intro-x mt-8">
-                    <input type="email"
+                    <input type="text"
                         className="intro-x login__input form-control py-3 px-4 block mt-4"
                         placeholder="Email"  {...register("email")} />
                     <p className="text-danger mt-2">{errors.email?.message}</p>
