@@ -1,5 +1,8 @@
-import * as React from "react";
-export * from "./view/Home";
-export * from  "./atomos/botoes/BotaoAzul";
-export * from "./atomos/botoes/BotaoBranco/BotaoBranco";
+export * from  "./atomos/Botoes/Botoes";
 export * from "./atomos/LogoInicial/LogoInicial";
+export * from "./atomos/InputCheckBox/InputCheckBox";
+export * from "./atomos/InputLogin/InputLogin";
+export * from "./atomos/LogoDashboard/LogoDashboard";
+export * from "./atomos/MenuNavegacao/MenuNavegacao";
+export * from "./atomos/BarraBusca/BarraBusca";
+export * from "./atomos/Notificacoes/Notificacoes"

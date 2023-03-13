@@ -1,1 +1,8 @@
 /*Aqui que será feito as estilizações*/
+
+html body{
+    overflow-y: hidden;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}

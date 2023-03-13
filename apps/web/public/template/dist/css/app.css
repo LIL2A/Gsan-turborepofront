@@ -16282,7 +16282,7 @@ html body{
     & :root {
         --litepicker-day-width: 35px;
     }
-  }
+}
 .dark .litepicker{
     --tw-bg-opacity: 1;
     background-color: rgb(var(--color-darkmode-600) / var(--tw-bg-opacity));

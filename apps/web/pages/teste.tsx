@@ -1,13 +1,12 @@
 import React from 'react'
-import {BotaoAzul} from 'ui/atomos/botoes/BotaoAzul'
-import {BotaoBranco} from 'ui/atomos/botoes/BotaoBranco/BotaoBranco'
+import {BotaoBranco, BotaoAzul} from 'ui'
 
 const teste = () => {
   return (
-    <>
+    <div>
        <BotaoAzul texto="Login"/>
        <BotaoBranco texto="Cadastrar"/>
-    </>
+    </div>
   )
 }
 
