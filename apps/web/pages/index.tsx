@@ -1,5 +1,5 @@
 import React from 'react'
-import { Home, LogoInicial } from "ui"
+import { LogoInicial } from "ui"
 import LoginForm from 'ui/organismos/LoginForm'
 
 const index = () => {
