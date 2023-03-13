@@ -5,7 +5,7 @@ import {
 } from "ui";
 import { BotaoAzulTeamB } from "../atomos/Botoes/BotaoTeamB/BotaoTeamB";
 
-import { InputLoginTeam2 } from "../atomos/InputLogin/InputLoginTeam2";
+import { InputLoginTeam2 } from "../atomos/InputLogin/InputLoginTeam2/InputLoginTeam2";
 
 const LoginForm = () => {
   return (
