@@ -3,8 +3,9 @@ import {
   BotaoAzul,
   BotaoBranco,
   InputCheckbox,
-  InputLoginTeam2
 } from "ui";
+
+import { InputLoginTeam2 } from "../atomos/InputLogin/InputLoginTeam2";
 
 const LoginForm = () => {
   return (
