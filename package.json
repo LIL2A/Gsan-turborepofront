@@ -20,6 +20,10 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@hookform/resolvers": "^2.9.11",
+    "react-hook-form": "^7.43.5",
+    "yup": "^1.0.2"
+  },
   "packageManager": "npm@8.19.3"
 }
